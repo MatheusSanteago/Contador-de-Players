@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: linear-gradient(to right, purple, rgb(48, 12, 211));
+  background-color: #111;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+}
+h1 {
+  color: white;
+}
+th,
+tr,
+td {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+th,
+tr {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+}
+button {
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgb(255, 255, 255); 
+}
+button:hover{
+    background-image: linear-gradient(to right, rgba(197, 25, 197, 0.418), rgba(48, 12, 211, 0.445));
+}
+input[type="text"] {
+  width: 150px;
+  height: 40px;
+  padding: 4px;
+  font-size:20px;
+}
+#buttonAdd{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgb(255, 255, 255); 
+    width: 150px;
+    height: 40px;
+}
+#x {
+  margin: 3px;
+  width: 20px;
+  height: 20px;
+}
+.img-button {
+  margin: 10px;
+  margin: 1px;
+  width: 30px;
+  height: 30px;
+}
+input[type="checkbox"]{
+    width:20px;
+    height:20px;
+}
